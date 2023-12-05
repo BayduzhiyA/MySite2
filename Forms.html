@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Записаться</title>
+  <link href='CSS/Forms.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header align="center">
+ <table width="100%" border="0" cellspacing="3"  >
+      <tr >
+        <td> <a href="https://www.whatsapp.com/?lang=ru_RU" target="_blank"><img src="images/wa_logo.png" width="30px"></a></td>
+           <td colspan="2"><p><a id="start"> Фитнес-клуб PumpZone </a></p></td>
+         <td><a href="https://web.telegram.org/k/" target="_blank"><img src="images/tg_logo.jpg" width="30px"></a></td>
+     </tr>
+<tr>
+            <td width="20%">  <a href="Main_page.html"> Главная страница </a> </td>
+            <td width="20%"><a href="Trainers.html">  Тренеры </a> </td>
+            <td width="20%"><a href="Shop.html"> Магазин </a> </td>
+    <td width="20%"><div class="Forms-title"><a href="Forms.html"> Записаться </a></div> </td>
+
+
+        </tr>
+     <tr>
+         <td colspan="4">
+         <h3 align="center">Записаться на тренировку</h3>
+<!--<form action="../../cgi-bin/form_action.py" method='get' target='_self'>-->
+<!--<form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method='get' target='_self'>-->
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <p>Для поисковика:<input type="Text"  name="q" value="search"></p>
+    <p>Фамилия: <input type="Text" name="last_name" size=20  value="Петров"></p>
+    <p>Имя: <input type="Text" name="first_name" size=20  value="Иван"></p>
+    <p>Фамилия: <input type="Text" name="phone_number" size=20  value="+7 999 999 99 99"></p>
+    <p>E-mail: <input type="Text" name="mail" size=20  value="email@pumpzone.com"></p>
+    <p>Пароль: <input type="Password" name="password" size=9  value="123"></p>
+    <p>Возраст: <input type="Number" name="age" size=20 value="0"></p>
+    <p>Дата записи: <input type="date" name="user_date"  value='2023-11-08'></p>
+    <p>Филиал клуба:
+        <input type="Radio" name="place" value="Sportivnaya">метро Спортивная
+        <input type="Radio" name="place" value="Kievskaya" checked >метро Киевская
+    </p>
+
+    <p>Записаться на:
+        <input type="Checkbox" name="training"  value="Personal_training" checked>Персональная тренировка
+        <input type="Checkbox"  name="training"   value="Functional_training" >Функциональный тренинг
+        <input type="Checkbox" name="training" value="Power_training" >Силовая тренировка
+        <input type="Checkbox" name="training" value="Cardio" >Кардиотренировка
+        <input type="Checkbox" name="training" value="Group_training" >Групповая тренировка
+        <input type="Checkbox" name="training" value="Yoga" >Йога
+        <input type="Checkbox" name="training" value="Pilates" >Пилатес
+    </p>
+
+    <p>Опыт в фитнесе
+        <select name="Experience">
+            <OPTION value="Rookie">0-2 года</OPTION>
+            <OPTION value="Experienced">3-5 лет</OPTION>
+            <OPTION value="Pro">5+ лет</OPTION>
+        </select>
+    </p>
+
+    <p>Имеются ли ограничения на физическую нагрузку:
+        <br>
+        <TEXTAREA cols=80 name="textarea" rows=4>Ограничений нет</TEXTAREA>
+    </p>
+
+
+    <!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+
+
+    <input type="hidden" name="function"  value="page">
+    <input type="hidden" name="page_id"  value="3">
+
+    <p>
+        <input type="Reset"  name="Reset"  value="Обновить">
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+
+</form>
+         </td>
+     </tr>
+     <tr>
+            <td><p align="right"><a href="#start" target="_self" title="Закладка">К началу страницы</a></p>
+            </td>
+        </tr>
+ </table>
+    </header>
+</body>
+</html>
