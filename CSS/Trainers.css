@@ -1,0 +1,60 @@
+body{
+    font-family: 'Arial', serif;
+    background-color: lightblue;  }
+
+   p {
+    font-family: 'Arial';
+    color: #8B008B;
+    font-size: 32px;
+    font-weight: bold;
+    }
+
+a {
+    text-decoration: none; }
+  a:link {
+    color: #000000;  }
+  a:visited {
+    color: #000000; }
+  a:active {
+      color:#c0a97a; }
+
+header {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);}
+
+.Trainers-title{
+    text-decoration-line: underline; }
+
+.trainers_1 {
+
+    width: 250px;
+    margin: 20px 15px;
+    background: white;
+    padding:15px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Arial', serif;
+    text-transform: uppercase;
+ }
+ .trainer {
+    position: relative;
+    overflow: hidden;
+ }
+ .trainer img {
+    width: 225px;
+ }
+
+ .trainers-title a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    padding-bottom: 7px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;
+ }
