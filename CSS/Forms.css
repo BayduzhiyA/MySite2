@@ -1,0 +1,30 @@
+body{
+    font-family: 'Arial', serif;
+    background-color: lightblue;  }
+
+   p {
+    font-family: 'Arial';
+    color: #8B008B;
+    font-size: 32px;
+    font-weight: bold;
+    }
+
+a {
+    text-decoration: none; }
+  a:link {
+    color: #000000;  }
+  a:visited {
+    color: #000000; }
+  a:active {
+      color:#c0a97a; }
+
+header {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);}
+
+.Forms-title{
+    text-decoration-line: underline; }
